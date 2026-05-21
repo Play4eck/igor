@@ -1,0 +1,341 @@
+@font-face {
+  font-family:AlegreyaSCRegular ;
+  src: url(AlegreyaSCRegular.ttf);
+}
+
+
+body {
+    background-color: #555555;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: AlegreyaSCRegular;
+}
+
+a {
+  text-decoration: none;
+}
+
+.Heder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.nazv {
+    margin-left: 20px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;   
+}
+
+
+.nal {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.aci {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.kont {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.onas {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.cards-container {
+  gap: 25px;
+  padding: 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.karta {
+  width: 100%;
+  margin-bottom: 20px;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.karta:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.3);
+}
+
+.karta-img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 20px 20px 0 0;
+}
+
+.coleso, .colesoo, .colesooa {
+  padding: 35px 20px;
+  text-align: center;
+  margin: 0;
+  border-radius: 0 0 20px 20px;
+  font-size: 30px;
+  color: white;
+}
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  border-top: 3px solid #777777;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left p,
+.footer-right p {
+  font-size: 14px;
+}
+
+.footer-phone {
+  display: block;
+  margin-top: 5px;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-phone:hover {
+  color: #008cff;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 768px) {
+  .Heder {
+    flex-direction: column;
+    height: auto;
+    padding: 15px 0;
+    gap: 12px;
+    align-items: flex-start;
+  }
+
+  .nazv {
+    margin-left: 20px;
+    width: auto;
+  }
+
+  .naz {
+    margin-left: 130%;
+    font-size: 24px;
+  }
+
+  .nal, .aci, .kont, .onas {
+    margin-left: 20px;
+    width: 90%;
+    text-align: center;
+    font-size: 16px;
+    padding: 10px 0;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  .footer-row {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    font-size: 13px;
+  }
+
+  .footer-logo {
+    font-size: 28px;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@media
+  (max-width: 768px) and
+  (-webkit-min-device-pixel-ratio: 3),
+  (max-width: 768px) and (min-resolution: 3dppx) {
+
+  body,
+  .Heder,
+  .text,
+  .card-info,
+  .footer {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  
+  .car-card {
+    box-shadow: 0 4px 20px rgba(255, 255, 255, 0.2);
+  }
+
+  
+  .text {
+    font-size: 24px;
+  }
+
+  .card-info h3 {
+    font-size: 17px;
+  }
+
+  .price {
+    font-size: 15px;
+  }
+
+  .thumbnail {
+    width: 60px;
+    height: 45px;
+  }
+
+
+  .nal, .aci, .kont, .onas {
+    padding: 12px 0;
+  }
+}
+
+
+
+.particle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: drift 30s infinite linear;
+}
+
+.particle::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50vw);
+  }
+}
+
+.nal, .aci, .kont, .onas {
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.nal:hover, .aci:hover, .kont:hover, .onas:hover {
+  background-color: rgba(255, 255, 255, 0.1); 
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.naz {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+
+@media (max-width: 768px) {
+  .cards-container {
+    gap: 25px;
+    padding: 15px;
+  }
+  
+  .karta {
+    margin-bottom: 15px;
+  }
+  
+  .coleso, .colesoo, .colesooa {
+    font-size: 16px;
+    padding: 12px 15px;
+  }
+}

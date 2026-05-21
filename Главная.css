@@ -1,0 +1,418 @@
+@font-face {
+  font-family:AlegreyaSCRegular ;
+  src: url(AlegreyaSCRegular.ttf);
+}
+
+
+body {
+    background-color: #555555;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    font-family: AlegreyaSCRegular;
+}
+
+
+a {
+  text-decoration: none;
+}
+
+
+.Heder {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+}
+
+
+.mers {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+
+.fotogl {
+ width: 100%;
+ height: 700px;
+ object-fit: cover;
+  
+}
+
+
+
+
+
+.text {
+  color: white;
+  position: relative;
+  font-size: 70px;
+  font-family: AlegreyaSCRegular;
+}
+
+
+.knopka {
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: gray;
+  width: 210px;
+  color: white;
+  position: relative;
+  font-size: 20px;
+  margin-top: 380px;
+  font-family: AlegreyaSCRegular;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+.aaa{
+  position: absolute;
+    top: 2%;
+    left: 2%;
+    text-align: left;
+}
+
+
+.nazv {
+    margin-left: 20px;
+    width: 100px;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+
+.knipka {
+    margin-left: 200px;
+    display: flex;
+    align-items: center;
+    color: white;
+    border:  solid 1px white;
+    font-size: 30px;
+}
+
+
+.nal {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.aci {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.kont {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.onas {
+    border: none;
+    color: white;
+    background-color: black;
+    margin-left: 100px;
+    width: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+.text_ne {
+  margin-right: 1600px;
+  color: white;
+  font-size: 50px;
+}
+
+
+.text_nene {
+  text-shadow: 3px 3px 1px rgba(0, 0, 0, 0.5);
+  margin-top: 0px;
+}
+
+
+.logotip {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.logotip > div {
+  text-align: center;
+  border: 1px solid #333;
+  border-radius: 6px;
+  padding: 4px;
+  background-color: #222;
+  width: 80px;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s, outline 0.3s;
+  outline: none;
+}
+
+.logotip img {
+  width: 60px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.logotip div div {
+  margin-top: 4px;
+  color: #fff;
+  font-family: 'Arial', sans-serif;
+  font-size: 10px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.logotip .number {
+  margin-top: 2px;
+  color: #aaa;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 1.1;
+}
+
+.logotip > div:hover {
+  transform: scale(1.05);
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.3);
+  outline: 2px solid #000000;
+  outline-offset: 1px
+}
+
+
+.footer {
+  width: 100%;
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  border-top: 3px solid #777777;
+  margin-top: 200px;
+}
+
+.container {
+  padding: 0 20px;
+}
+
+.footer-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left p,
+.footer-right p {
+  font-size: 14px;
+}
+
+.footer-phone {
+  display: block;
+  margin-top: 5px;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.footer-phone:hover {
+  color: #008cff;
+}
+
+.footer-center {
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 36px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: 2px;
+}
+
+
+@media (max-width: 768px) {
+
+  .Heder {
+    flex-direction: column;
+    height: auto;
+    padding: 10px 0;
+    gap: 15px;
+  }
+
+  .nazv {
+    margin-left: 0;
+    text-align: center;
+    width: auto;
+  }
+
+  .nal, .aci, .kont, .onas {
+    margin-left: 0;
+    width: 80%;
+    text-align: center;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+
+  .text {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .aaa {
+    left: 5.5%;
+    top: 0%;
+    text-align: center;
+  }
+
+  .fotogl {
+    height: 400px;
+  }
+
+  .knopka {
+    width: 70%;
+    margin: 20px auto;
+    justify-content: center;
+    font-size: 16px;
+    margin-top: 90%;
+    margin-left: 40%;
+  }
+
+  
+  .text_ne {
+    margin-right: 0;
+    text-align: center;
+    font-size: 32px;
+  }
+
+  
+  .logotip {
+    justify-content: space-around;
+    gap: 10px;
+  }
+
+  .logotip > div {
+    width: calc(35% - 20px);
+    padding: 8px;
+  }
+
+  .logotip img {
+    width: 50px;
+  }
+
+  .logotip div div {
+    font-size: 9px;
+  }
+
+  .logotip .number {
+    font-size: 11px;
+  }
+
+  .footer-row {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+
+  .footer-left p,
+  .footer-right p {
+    font-size: 12px;
+    margin: 5px 0;
+  }
+
+  .footer-phone {
+    font-size: 14px;
+  }
+
+  .footer-logo {
+    font-size: 28px;
+  }
+}
+
+.nal, .aci, .kont, .onas {
+  text-align: center;
+  border: none;
+  color: white;
+  background-color: transparent;
+  font-size: 20px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  border-radius: 5px;
+}
+
+.nal:hover, .aci:hover, .kont:hover, .onas:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  transform: translateY(-2px);
+  box-shadow: 0 2px 5px rgba(255, 255, 255, 0.3);
+}
+
+.naz {
+  color: white;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.particle-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.particle {
+  position: absolute;
+  background: white;
+  border-radius: 50%;
+  opacity: 0.3;
+  animation: drift 30s infinite linear;
+}
+
+.particle::after {
+  content: '';
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.1);
+}
+
+@keyframes drift {
+  0% {
+    transform: translateY(0) translateX(0);
+  }
+  100% {
+    transform: translateY(-100vh) translateX(50vw);
+  }
+}
